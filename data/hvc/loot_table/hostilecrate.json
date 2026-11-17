@@ -18,6 +18,17 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
+                    "name": "minecraft:creeper_spawn_egg",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
                     "name": "minecraft:evoker_spawn_egg",
                     "modifier": [
                         {
