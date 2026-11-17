@@ -1202,6 +1202,310 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_carrot",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:food": {
+                                    "nutrition": 40,
+                                    "saturation": 1,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:night_vision",
+                                                    "amplifier": 1,
+                                                    "duration": 24000
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Leah's Stinkiest Carrot"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Taken from her secret stash."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:chicken_spawn_egg",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:chicken",
+                                    "Health": 100,
+                                    "Age": -1,
+                                    "AgeLocked": true,
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 16
+                                        },
+                                        {
+                                            "id": "minecraft:max_health",
+                                            "base": 100
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "text": "Chicken BIG"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "text": "Why's he so big? Becaaaaaaauuse!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:diamond",
+                                    "pattern": "minecraft:flow"
+                                },
+                                "minecraft:dyed_color": 3847130,
+                                "minecraft:enchantments": {
+                                    "frost_walker": 2,
+                                    "soul_speed": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1794570979119",
+                                        "type": "friction_modifier",
+                                        "amount": -0.95,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "1794570979120",
+                                        "type": "air_drag_modifier",
+                                        "amount": -0.9,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "equip_sound": "block.glass.break",
+                                    "asset_id": "minecraft:leather"
+                                },
+                                "minecraft:unbreakable": {}
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "aqua",
+                                    "italic": false,
+                                    "text": "Icy Boots"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "aqua",
+                                    "italic": false,
+                                    "text": "Watch out for chilblains!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:shaper"
+                                },
+                                "minecraft:dyed_color": 8439583,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1793794907164",
+                                        "type": "air_drag_modifier",
+                                        "amount": -0.97,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "1793794907165",
+                                        "type": "bounciness",
+                                        "amount": 1,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "1793794907167",
+                                        "type": "safe_fall_distance",
+                                        "amount": 50,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "equip_sound": "entity.slime.jump_small",
+                                    "asset_id": "minecraft:leather"
+                                },
+                                "minecraft:unbreakable": {}
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Slime Boots"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Now with Extra Slime!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:iron",
+                                    "pattern": "minecraft:flow"
+                                },
+                                "minecraft:dyed_color": 3949738,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1794048981174",
+                                        "type": "camera_distance",
+                                        "amount": 32,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "asset_id": "minecraft:leather"
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "dark_blue",
+                                    "italic": false,
+                                    "text": "Helmet of Far-Seeing"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "aqua",
+                                    "italic": false,
+                                    "text": "Get a new perspective on life."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
                 }
             ]
         }

@@ -1,0 +1,189 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "asset_id": "minecraft:none"
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "Helmet of Invisibility"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "You are now manually blinking."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_chestplate",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:equippable": {
+                                    "slot": "chest",
+                                    "asset_id": "minecraft:none"
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "Chestplate of Invisibility"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "You are now manually breathing."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_leggings",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:equippable": {
+                                    "slot": "legs",
+                                    "asset_id": "minecraft:none"
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "Leggings of Invisibility"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "You are now aware of your tongue."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "asset_id": "minecraft:none"
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "Boots of Invisibility"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "black",
+                                    "italic": false,
+                                    "text": "You are now aware of your nose."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

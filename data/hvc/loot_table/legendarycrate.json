@@ -5,6 +5,10 @@
             "rolls": 1,
             "entries": [
                 {
+                    "type": "loot_table",
+                    "value": "hvc:invisiblearmor"
+                },
+                {
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:heavy_core",
@@ -442,6 +446,61 @@
                                     "damage_on_hurt": false
                                 }
                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "modifier": [
+                        {
+                            "type": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:haste",
+                                            "amplifier": 1,
+                                            "duration": 72000
+                                        },
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "amplifier": 2,
+                                            "duration": 72000
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 2,
+                                            "duration": 72000
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "set_name",
+                            "name": [
+                                {
+                                    "color": "#aa09aa",
+                                    "italic": false,
+                                    "text": "Elixir of Exploration"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Brewmaster Flash's Finest Creation"
+                                }
+                            ],
+                            "mode": "append"
                         }
                     ]
                 }
